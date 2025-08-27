@@ -1,0 +1,3 @@
+from dio_fastapi_api.categorias.models import CategoriaModel
+from dio_fastapi_api.centro_de_treinamento.models import CentroTreinamentoModel
+from dio_fastapi_api.atleta.models import AtletaModel

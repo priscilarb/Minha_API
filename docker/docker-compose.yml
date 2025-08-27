@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: dio_fastapi_user
+      POSTGRES_PASSWORD: dio_fastapi
+      POSTGRES_DB: dio_fastapi_db
+    ports:
+      - "5432:5432"
