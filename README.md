@@ -35,3 +35,10 @@ pip install -r requirements.txt
 
 # Execute o servidor
 uvicorn dio_fastapi_api.main:app --reload
+````
+
+## 📄 Documentação Interativa
+Acesse a documentação Swagger em:
+http://127.0.0.1:8000/docs
+
+
